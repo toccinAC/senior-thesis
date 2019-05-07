@@ -1,0 +1,1103 @@
++-----------+----------+---------+---------+----------+---------------+---------+----------+
+| Statement |          |         | Number  |          |    Number     | Number  |          |
+| Coverage  | Initial  | Number  |   of    | Fiascoed |      of       |   of    | Updated  |
+|           | Function |   of    | Tested  |  Methods | Pseudo-tested |  Truly  | Coverage |
+|           | coverage | Methods | Methods |          |    Methods    | Tested  |          |
+|           |          |         |         |          |               | Methods |          |
++-----------+----------+---------+---------+----------+---------------+---------+----------+
+|    99%    |   0.9    |   91    |   78    |    53    |      36       |   42    |   0.5    |
++-----------+----------+---------+---------+----------+---------------+---------+----------+
+
+
+
+Please respond with a yes/no
+ Function-Fiasco> yes
+../gatorgrader/gator/run.py -> specified_command_get_output  is being pseudotested in 1 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_run_command_grab_output_as_string_count_lines
+
+
+../gatorgrader/gator/util.py -> verify_gatorgrader_home  is being pseudotested in 1 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_gatorgrader_home_is_set_after_os_dictionary_set
+
+
+../gatorgrader/gator/util.py -> get_gatorgrader_home  is being pseudotested in 2 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_gatorgrader_home_is_set
+   test_gatorgrader_home_is_set_after_os_dictionary_set
+
+
+../gatorgrader/gator/util.py -> is_json  is being pseudotested in 14 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_run_invalid_output
+   test_display_welcome_produce_output_line_count
+   test_run_command_grab_output_as_string_count_lines_exact
+   test_add_single_result_to_report_check_text_output_diagnostic
+   test_dislay_invalid_produce_output_line_count
+   test_output_text
+   test_add_single_result_to_report_check_text_output_diagnostic_nested
+   test_run_invalid_output_str
+   test_add_single_result_to_report_check_text_output_list
+   test_output_json
+   test_run_command_does_execute_correctly_would_make_output
+   test_run_command_grab_output_as_string_count_lines
+   test_run_command_grab_output_as_string
+   test_display_checking_produce_output_line_count
+
+
+../gatorgrader/gator/arguments.py -> is_valid_file  is being pseudotested in 81 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_is_valid_fragment_with_file_or_command[chosen_arguments2]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_accepted[chosen_arguments0]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments8]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments2]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments6]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments13]
+   test_is_invalid_count_with_file_or_command[chosen_arguments4]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments0]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments9]
+   test_default_argument_values_correct
+   test_is_not_valid_language_combinations_wrong[chosen_arguments6]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments11]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments10]
+   test_perform_actions_display_welcome_and_exit_check_arguments
+   test_invalid_argument_combinations_not_accepted[chosen_arguments8]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments0]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments3]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments2]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments4]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments7]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+   test_is_valid_fragment_with_file_or_command[chosen_arguments3]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments6]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments18]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments6]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments7]
+   test_is_file_ancillary[chosen_arguments1]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments5]
+   test_is_invalid_count_with_file_or_command[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments21]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments9]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments6]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments7]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments4]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments1]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments5]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments22]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_exact_count_check_valid[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_invalid_argument_combinations_accepted[chosen_arguments5]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments9]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments5]
+   test_exact_count_check_valid[chosen_arguments8]
+   test_is_valid_count_with_file_or_command[chosen_arguments2]
+   test_is_invalid_count_with_file_or_command[chosen_arguments3]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments8]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments3]
+   test_exact_count_check_valid[chosen_arguments1]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments0]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_is_file_ancillary[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments19]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments4]
+   test_is_file_ancillary[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments14]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments10]
+   test_is_file_ancillary[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_is_invalid_count_with_file_or_command[chosen_arguments2]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments5]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments1]
+
+
+../gatorgrader/gator/arguments.py -> is_valid_directory  is being pseudotested in 82 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_is_valid_fragment_with_file_or_command[chosen_arguments2]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_accepted[chosen_arguments0]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments8]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments2]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments13]
+   test_is_invalid_count_with_file_or_command[chosen_arguments4]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments0]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments9]
+   test_default_argument_values_correct
+   test_is_not_valid_language_combinations_wrong[chosen_arguments6]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments11]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments0]
+   test_exact_count_check_not_valid[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments10]
+   test_perform_actions_display_welcome_and_exit_check_arguments
+   test_invalid_argument_combinations_not_accepted[chosen_arguments8]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments0]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments3]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments2]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+   test_is_valid_fragment_with_file_or_command[chosen_arguments3]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments3]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments2]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments18]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments6]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments2]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments7]
+   test_is_file_ancillary[chosen_arguments1]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments5]
+   test_is_invalid_count_with_file_or_command[chosen_arguments0]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments9]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments6]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments7]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments20]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments4]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments1]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments5]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_is_invalid_count_with_file_or_command[chosen_arguments1]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments1]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments22]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_exact_count_check_valid[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_invalid_argument_combinations_accepted[chosen_arguments5]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments4]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments9]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_exact_count_check_valid[chosen_arguments8]
+   test_is_valid_count_with_file_or_command[chosen_arguments2]
+   test_is_invalid_count_with_file_or_command[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments3]
+   test_exact_count_check_valid[chosen_arguments1]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments2]
+   test_is_file_ancillary[chosen_arguments0]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments1]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments19]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments1]
+   test_is_file_ancillary[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments14]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments10]
+   test_is_file_ancillary[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments5]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments1]
+
+
+../gatorgrader/gator/arguments.py -> is_valid_file_and_directory  is being pseudotested in 75 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_is_invalid_count_with_file_or_command[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_is_valid_fragment_with_file_or_command[chosen_arguments3]
+   test_is_valid_fragment_with_file_or_command[chosen_arguments2]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments22]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments8]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments18]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments6]
+   test_exact_count_check_valid[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments13]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments0]
+   test_valid_argument_combinations_accepted[chosen_arguments9]
+   test_invalid_argument_combinations_accepted[chosen_arguments5]
+   test_valid_argument_combinations_accepted[chosen_arguments12]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments0]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments9]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments5]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments4]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments7]
+   test_is_file_ancillary[chosen_arguments0]
+   test_is_file_ancillary[chosen_arguments1]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments9]
+   test_default_argument_values_correct
+   test_is_not_valid_language_combinations_wrong[chosen_arguments6]
+   test_valid_argument_combinations_accepted[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments11]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments5]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments0]
+   test_exact_count_check_valid[chosen_arguments8]
+   test_is_valid_count_with_file_or_command[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments19]
+   test_is_invalid_count_with_file_or_command[chosen_arguments3]
+   test_is_invalid_count_with_file_or_command[chosen_arguments0]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments9]
+   test_is_not_valid_file_not_valid_words_wrong[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments7]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments10]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_is_file_ancillary[chosen_arguments3]
+   test_perform_actions_display_welcome_and_exit_check_arguments
+   test_invalid_argument_combinations_not_accepted[chosen_arguments14]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments8]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments10]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments0]
+   test_is_file_ancillary[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_valid_argument_combinations_accepted[chosen_arguments10]
+   test_exact_count_check_valid[chosen_arguments1]
+   test_is_not_valid_file_not_valid_comments_wrong[chosen_arguments0]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments4]
+   test_is_not_valid_file_not_valid_paragraphs_wrong[chosen_arguments5]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments1]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments2]
+   test_valid_argument_combinations_accepted[chosen_arguments6]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments1]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+
+
+../gatorgrader/gator/arguments.py -> is_valid_file_or_directory  is being pseudotested in 39 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_valid_argument_combinations_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments22]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments13]
+   test_invalid_argument_combinations_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments4]
+   test_valid_argument_combinations_accepted[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments9]
+   test_default_argument_values_correct
+   test_valid_argument_combinations_accepted[chosen_arguments5]
+   test_perform_actions_display_welcome_and_ready_check_arguments
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments19]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments21]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_valid_argument_combinations_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_valid_argument_combinations_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments20]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments8]
+   test_perform_actions_display_welcome_and_exit_check_arguments
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_valid_argument_combinations_accepted[chosen_arguments1]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_arguments_verified
+   test_valid_argument_combinations_accepted[chosen_arguments8]
+   test_valid_argument_combinations_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+
+
+../gatorgrader/gator/arguments.py -> is_valid_command  is being pseudotested in 56 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_exact_count_check_valid[chosen_arguments2]
+   test_is_valid_count_with_file_or_command[chosen_arguments0]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_accepted[chosen_arguments0]
+   test_exact_count_check_valid[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments22]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments2]
+   test_exact_count_check_valid[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments18]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_exact_count_check_valid[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_exact_count_check_valid[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments13]
+   test_is_invalid_count_with_file_or_command[chosen_arguments4]
+   test_is_command_ancillary[chosen_arguments0]
+   test_is_not_command_ancillary[chosen_arguments3]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments5]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments9]
+   test_default_argument_values_correct
+   test_is_valid_count_with_file_or_command[chosen_arguments1]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_is_command_ancillary[chosen_arguments1]
+   test_exact_count_check_valid[chosen_arguments5]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments19]
+   test_is_invalid_count_with_file_or_command[chosen_arguments3]
+   test_is_invalid_count_with_file_or_command[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments21]
+   test_exact_count_check_not_valid[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments20]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments14]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments8]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_exact_count_check_valid[chosen_arguments7]
+   test_perform_actions_display_welcome_and_exit_check_arguments
+   test_is_not_command_ancillary[chosen_arguments1]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_is_valid_fragment_with_file_or_command[chosen_arguments1]
+   test_exact_count_check_valid[chosen_arguments1]
+   test_is_not_command_ancillary[chosen_arguments2]
+   test_is_not_command_ancillary[chosen_arguments0]
+   test_is_invalid_fragment_with_file_or_command[chosen_arguments1]
+   test_is_valid_fragment_with_file_or_command[chosen_arguments0]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+
+
+../gatorgrader/gator/arguments.py -> is_valid_commits  is being pseudotested in 35 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_exact_count_check_valid[chosen_arguments2]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_accepted[chosen_arguments0]
+   test_exact_count_check_valid[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments22]
+   test_exact_count_check_valid[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments18]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_exact_count_check_valid[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments13]
+   test_invalid_argument_combinations_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments9]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_exact_count_check_valid[chosen_arguments5]
+   test_exact_count_check_valid[chosen_arguments8]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments21]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments20]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments14]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments8]
+   test_exact_count_check_valid[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_perform_actions_display_welcome_and_exit_check_arguments
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+
+
+../gatorgrader/gator/arguments.py -> is_valid_exists  is being pseudotested in 31 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments22]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments18]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments13]
+   test_invalid_argument_combinations_accepted[chosen_arguments5]
+   test_is_file_ancillary[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments4]
+   test_is_file_ancillary[chosen_arguments1]
+   test_default_argument_values_correct
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments19]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments21]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_is_file_ancillary[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments20]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments14]
+   test_is_file_ancillary[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+
+
+../gatorgrader/gator/arguments.py -> is_valid_comments  is being pseudotested in 55 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_accepted[chosen_arguments0]
+   test_exact_count_check_valid[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments22]
+   test_exact_count_check_valid[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments18]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_exact_count_check_valid[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments13]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments0]
+   test_invalid_argument_combinations_accepted[chosen_arguments5]
+   test_is_file_ancillary[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments4]
+   test_is_file_ancillary[chosen_arguments1]
+   test_valid_argument_combinations_accepted[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments9]
+   test_default_argument_values_correct
+   test_valid_argument_combinations_accepted[chosen_arguments5]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments6]
+   test_perform_actions_display_welcome_and_ready_check_arguments
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_exact_count_check_valid[chosen_arguments5]
+   test_exact_count_check_valid[chosen_arguments8]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments19]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments21]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_valid_argument_combinations_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_valid_argument_combinations_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments20]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments14]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments8]
+   test_exact_count_check_valid[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_perform_actions_display_welcome_and_exit_check_arguments
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_exact_count_check_valid[chosen_arguments1]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments4]
+   test_arguments_verified
+   test_valid_argument_combinations_accepted[chosen_arguments8]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments1]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments2]
+   test_is_not_valid_language_combinations_wrong[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+
+
+../gatorgrader/gator/arguments.py -> is_valid_paragraphs  is being pseudotested in 37 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_exact_count_check_valid[chosen_arguments2]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments22]
+   test_exact_count_check_valid[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments18]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_exact_count_check_valid[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_exact_count_check_valid[chosen_arguments3]
+   test_invalid_argument_combinations_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments4]
+   test_is_file_ancillary[chosen_arguments1]
+   test_default_argument_values_correct
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_exact_count_check_valid[chosen_arguments5]
+   test_exact_count_check_valid[chosen_arguments8]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments19]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments21]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_is_file_ancillary[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments20]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments14]
+   test_is_file_ancillary[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_exact_count_check_valid[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_exact_count_check_valid[chosen_arguments1]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+
+
+../gatorgrader/gator/arguments.py -> is_valid_words  is being pseudotested in 38 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_exact_count_check_valid[chosen_arguments2]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_exact_count_check_valid[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments22]
+   test_exact_count_check_valid[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments18]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_exact_count_check_valid[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_exact_count_check_valid[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments13]
+   test_invalid_argument_combinations_accepted[chosen_arguments5]
+   test_is_file_ancillary[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments4]
+   test_default_argument_values_correct
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_exact_count_check_valid[chosen_arguments8]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments19]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments21]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_is_file_ancillary[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments20]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments14]
+   test_is_file_ancillary[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_exact_count_check_valid[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_exact_count_check_valid[chosen_arguments1]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+
+
+../gatorgrader/gator/arguments.py -> is_valid_language  is being pseudotested in 41 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments22]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments18]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments13]
+   test_valid_argument_combinations_accepted[chosen_arguments9]
+   test_invalid_argument_combinations_accepted[chosen_arguments5]
+   test_valid_argument_combinations_accepted[chosen_arguments12]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments4]
+   test_valid_argument_combinations_accepted[chosen_arguments4]
+   test_default_argument_values_correct
+   test_valid_argument_combinations_accepted[chosen_arguments5]
+   test_valid_argument_combinations_accepted[chosen_arguments7]
+   test_perform_actions_display_welcome_and_ready_check_arguments
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments19]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments21]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_valid_argument_combinations_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_valid_argument_combinations_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments20]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments14]
+   test_perform_actions_display_welcome_and_exit_check_arguments
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_valid_argument_combinations_accepted[chosen_arguments10]
+   test_arguments_verified
+   test_valid_argument_combinations_accepted[chosen_arguments8]
+   test_valid_argument_combinations_accepted[chosen_arguments6]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+
+
+../gatorgrader/gator/arguments.py -> is_valid_executes  is being pseudotested in 30 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments18]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments13]
+   test_invalid_argument_combinations_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments9]
+   test_default_argument_values_correct
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments19]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments21]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments20]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments14]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments8]
+   test_perform_actions_display_welcome_and_exit_check_arguments
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+
+
+../gatorgrader/gator/arguments.py -> is_valid_fragment  is being pseudotested in 36 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_exact_count_check_valid[chosen_arguments2]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_exact_count_check_valid[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments22]
+   test_exact_count_check_valid[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments18]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_exact_count_check_valid[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_exact_count_check_valid[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments13]
+   test_valid_argument_combinations_accepted[chosen_arguments9]
+   test_invalid_argument_combinations_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments4]
+   test_default_argument_values_correct
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_exact_count_check_valid[chosen_arguments5]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments19]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments21]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments20]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments14]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_valid_argument_combinations_accepted[chosen_arguments10]
+   test_exact_count_check_valid[chosen_arguments1]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+
+
+../gatorgrader/gator/arguments.py -> is_valid_count  is being pseudotested in 36 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_exact_count_check_valid[chosen_arguments2]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_exact_count_check_valid[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments18]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_exact_count_check_valid[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_exact_count_check_valid[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments13]
+   test_valid_argument_combinations_accepted[chosen_arguments9]
+   test_invalid_argument_combinations_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments4]
+   test_default_argument_values_correct
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_exact_count_check_valid[chosen_arguments5]
+   test_exact_count_check_valid[chosen_arguments8]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments19]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments21]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments20]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments14]
+   test_exact_count_check_valid[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_valid_argument_combinations_accepted[chosen_arguments10]
+   test_exact_count_check_valid[chosen_arguments1]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+
+
+../gatorgrader/gator/arguments.py -> is_file_ancillary  is being pseudotested in 40 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_valid_argument_combinations_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments22]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments18]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_invalid_argument_combinations_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments4]
+   test_valid_argument_combinations_accepted[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments9]
+   test_default_argument_values_correct
+   test_valid_argument_combinations_accepted[chosen_arguments5]
+   test_perform_actions_display_welcome_and_ready_check_arguments
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments19]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments21]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_valid_argument_combinations_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_valid_argument_combinations_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments20]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments14]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments8]
+   test_perform_actions_display_welcome_and_exit_check_arguments
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_valid_argument_combinations_accepted[chosen_arguments1]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_arguments_verified
+   test_valid_argument_combinations_accepted[chosen_arguments8]
+   test_valid_argument_combinations_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+
+
+../gatorgrader/gator/arguments.py -> is_command_ancillary  is being pseudotested in 34 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_invalid_argument_combinations_not_accepted[chosen_arguments1]
+   test_invalid_argument_combinations_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments12]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments22]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments17]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments18]
+   test_invalid_argument_combinations_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments13]
+   test_invalid_argument_combinations_accepted[chosen_arguments5]
+   test_valid_argument_combinations_accepted[chosen_arguments12]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments5]
+   test_invalid_argument_combinations_accepted[chosen_arguments4]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments9]
+   test_default_argument_values_correct
+   test_valid_argument_combinations_accepted[chosen_arguments7]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments15]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments0]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments19]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments21]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments11]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments6]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments2]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments10]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments16]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments20]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments14]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments8]
+   test_perform_actions_display_welcome_and_exit_check_arguments
+   test_invalid_argument_combinations_not_accepted[chosen_arguments3]
+   test_invalid_argument_combinations_not_accepted[chosen_arguments4]
+   test_valid_argument_combinations_accepted[chosen_arguments6]
+   test_invalid_argument_combinations_accepted[chosen_arguments1]
+
+
+../gatorgrader/gator/orchestrate.py -> check  is being pseudotested in 15 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_perform_actions_display_welcome_and_exit_check
+   test_dictionary_is_nested
+   test_add_single_result_to_report_check_text_output_diagnostic
+   test_add_single_result_to_report
+   test_dictionary_is_not_nested
+   test_output_text_complete
+   test_output_json_complete
+   test_create_result
+   test_add_single_result_to_report_check_detail
+   test_add_multiple_results_to_report
+   test_output_text
+   test_add_single_result_to_report_check_text_output_diagnostic_nested
+   test_add_single_result_to_report_check_text_output_list
+   test_perform_actions_display_welcome_and_exit_check_arguments
+   test_output_json
+
+
+../gatorgrader/gator/invoke.py -> invoke_commits_check  is being pseudotested in 2 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_commit_checks
+   test_commit_checks_exact
+
+
+../gatorgrader/gator/invoke.py -> invoke_file_in_directory_check  is being pseudotested in 14 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_file_exists_in_directory_check_words
+   test_comment_counts_check_multiple_java
+   test_comment_counts_check_multiple_java_not_enough
+   test_file_exists_in_directory_check_fragments
+   test_comment_counts_check_single_java_exact
+   test_file_exists_in_directory_check_lines
+   test_comment_counts_check_single_java
+   test_comment_counts_check_single_python
+   test_file_exists_in_directory_check_paragraphs
+   test_file_exists_in_directory_check_paragraphs_exact
+   test_file_exists_in_directory_check_lines_exact
+   test_file_exists_in_directory_check_words_exact
+   test_file_exists_in_directory_check_fragments_exact
+   test_file_exists_in_directory_check
+
+
+../gatorgrader/gator/invoke.py -> invoke_all_comment_checks  is being pseudotested in 5 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_comment_counts_check_multiple_java
+   test_comment_counts_check_multiple_java_not_enough
+   test_comment_counts_check_single_java_exact
+   test_comment_counts_check_single_java
+   test_comment_counts_check_single_python
+
+
+../gatorgrader/gator/invoke.py -> invoke_all_paragraph_checks  is being pseudotested in 2 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_file_exists_in_directory_check_paragraphs
+   test_file_exists_in_directory_check_paragraphs_exact
+
+
+../gatorgrader/gator/invoke.py -> invoke_all_word_count_checks  is being pseudotested in 2 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_file_exists_in_directory_check_words_exact
+   test_file_exists_in_directory_check_words
+
+
+../gatorgrader/gator/invoke.py -> invoke_all_fragment_checks  is being pseudotested in 8 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_content_string_check_fragments
+   test_run_command_grab_output_as_string_count_lines_exact
+   test_file_exists_in_directory_check_fragments
+   test_file_exists_in_directory_check_fragments_exact
+   test_run_command_grab_output_as_string_count_lines
+   test_content_string_check_fragments_exact
+   test_content_string_check_fragments_with_threshold
+   test_run_command_grab_output_as_string
+
+
+../gatorgrader/gator/invoke.py -> invoke_all_command_fragment_checks  is being pseudotested in 3 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_run_command_grab_output_as_string_count_lines
+   test_run_command_grab_output_as_string_count_lines_exact
+   test_run_command_grab_output_as_string
+
+
+../gatorgrader/gator/invoke.py -> invoke_all_count_checks  is being pseudotested in 3 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_file_exists_in_directory_check_lines_exact
+   test_content_string_check_fragments_with_threshold
+   test_file_exists_in_directory_check_lines
+
+
+../gatorgrader/gator/entities.py -> count_entities  is being pseudotested in 2 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_file_contains_multiline_comment_greater
+   test_file_contains_singleline_comment_greater
+
+
+../gatorgrader/gator/fragments.py -> is_paragraph  is being pseudotested in 7 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_paragraphs_zero_or_one[Paragraph\n\n```\nShould
+   test_paragraphs_zero_or_one[-01]
+   test_words_different_counts[-0]
+   test_paragraphs_zero_or_one[Paragraph\n\n\n#
+   test_paragraphs_zero_or_one[-00]
+   test_paragraphs_zero_or_one[#
+   test_paragraphs_zero_or_one[
+
+
+../gatorgrader/gator/repository.py -> count_commits  is being pseudotested in 5 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_repository_commits_not_huge
+   test_repository_not_zero_commits_extra_method
+   test_repository_not_zero_commits_greater_than
+   test_repository_not_zero_commits_greater_than_exacted
+   test_repository_commits_not_huge_exacted
+
+
+../gatorgrader/gator/report.py -> output  is being pseudotested in 52 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_perform_actions_display_welcome_and_exit_check
+   test_content_string_check_fragments
+   test_command_executes_checks_does_execute_correctly
+   test_exact_count_check_valid[chosen_arguments2]
+   test_perform_actions_display_welcome_and_ready_check_command_failing_exact
+   test_perform_actions_display_welcome_and_ready_check_command_not_working
+   test_commit_checks_exact
+   test_exact_count_check_valid[chosen_arguments4]
+   test_file_exists_in_directory_check_paragraphs
+   test_file_exists_in_directory_check_paragraphs_exact
+   test_add_single_result_to_report_check_text_output_list
+   test_perform_actions_display_welcome_and_ready_check_count_command
+   test_file_exists_in_directory_check_words_exact
+   test_exact_count_check_valid[chosen_arguments6]
+   test_file_exists_in_directory_check
+   test_perform_actions_display_welcome_and_ready_check_command_working
+   test_exact_count_check_valid[chosen_arguments0]
+   test_exact_count_check_valid[chosen_arguments3]
+   test_file_exists_in_directory_check_fragments
+   test_perform_actions_display_welcome_and_ready_check_count_command_json
+   test_add_single_result_to_report_check_detail
+   test_file_exists_in_directory_check_lines_exact
+   test_perform_actions_display_welcome_and_ready_check_arguments
+   test_exact_count_check_valid[chosen_arguments5]
+   test_run_command_grab_output_as_string_count_lines
+   test_perform_actions_display_welcome_and_ready_check_commit
+   test_exact_count_check_valid[chosen_arguments8]
+   test_run_invalid_output
+   test_comment_counts_check_multiple_java
+   test_comment_counts_check_multiple_java_not_enough
+   test_exact_count_check_not_valid[chosen_arguments0]
+   test_file_exists_in_directory_check_lines
+   test_run_invalid_output_str
+   test_add_single_result_to_report_check_text_output_diagnostic_nested
+   test_commit_checks
+   test_perform_actions_display_welcome_and_exit_check_arguments
+   test_exact_count_check_valid[chosen_arguments7]
+   test_content_string_check_fragments_exact
+   test_run_command_grab_output_as_string
+   test_display_checking_produce_output_line_count
+   test_exact_count_check_valid[chosen_arguments1]
+   test_run_command_grab_output_as_string_count_lines_exact
+   test_file_exists_in_directory_check_words
+   test_perform_actions_display_welcome_and_ready_check_command
+   test_add_single_result_to_report_check_text_output_diagnostic
+   test_comment_counts_check_single_java_exact
+   test_command_executes_checks_does_not_execute_correctly
+   test_comment_counts_check_single_java
+   test_comment_counts_check_single_python
+   test_file_exists_in_directory_check_fragments_exact
+   test_content_string_check_fragments_with_threshold
+   test_perform_actions_display_welcome_and_ready_check_command_failing
+
+
+../gatorgrader/gator/report.py -> form_single_output_line  is being pseudotested in 3 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_output_text_complete
+   test_output_text
+   test_add_single_result_to_report_check_text_output_list
+
+
+../gatorgrader/gator/comments.py -> count_singleline_java_comment  is being pseudotested in 18 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_singleline_comments_many_python[###
+   test_singleline_comments_many_python[####
+   test_singleline_comments_many_python[\n
+   test_singleline_comments_many_python[print("Hello,
+   test_singleline_comments_zero_or_one_python[new
+   test_singleline_comments_zero_or_one_python[#
+   test_singleline_comments_zero_or_one_python[System.out.println("Escaped
+   test_singleline_comments_many_python[#h
+   test_singleline_comments_many_python[String
+   test_singleline_comments_many_python[new
+   test_singleline_comments_zero_or_one_python[
+   test_singleline_comments_zero_or_one_python[String
+   test_singleline_comments_many_python[#
+   test_singleline_comments_zero_or_one_python[hello
+   test_singleline_comments_zero_or_one_python[#\\\\-1]
+   test_singleline_comments_zero_or_one_python[-00]
+   test_singleline_comments_zero_or_one_python[-01]
+   test_singleline_comments_zero_or_one_python[print("Hello,
+
+
+../gatorgrader/gator/leave.py -> get_code  is being pseudotested in 39 tests
+TESTS THAT REQUIRE OPTIMIZATION
+   test_perform_actions_display_welcome_and_exit_check
+   test_content_string_check_fragments
+   test_command_executes_checks_does_execute_correctly
+   test_exact_count_check_valid[chosen_arguments2]
+   test_commit_checks_exact
+   test_exact_count_check_valid[chosen_arguments4]
+   test_file_exists_in_directory_check_paragraphs
+   test_file_exists_in_directory_check_paragraphs_exact
+   test_add_single_result_to_report_check_text_output_list
+   test_file_exists_in_directory_check_words_exact
+   test_exact_count_check_valid[chosen_arguments6]
+   test_file_exists_in_directory_check
+   test_exact_count_check_valid[chosen_arguments0]
+   test_exact_count_check_valid[chosen_arguments3]
+   test_file_exists_in_directory_check_fragments
+   test_add_single_result_to_report_check_detail
+   test_file_exists_in_directory_check_lines_exact
+   test_perform_actions_display_welcome_and_ready_check_arguments
+   test_exact_count_check_valid[chosen_arguments5]
+   test_exact_count_check_valid[chosen_arguments8]
+   test_comment_counts_check_multiple_java
+   test_comment_counts_check_multiple_java_not_enough
+   test_exact_count_check_not_valid[chosen_arguments0]
+   test_file_exists_in_directory_check_lines
+   test_add_single_result_to_report_check_text_output_diagnostic_nested
+   test_commit_checks
+   test_perform_actions_display_welcome_and_exit_check_arguments
+   test_exact_count_check_valid[chosen_arguments7]
+   test_content_string_check_fragments_exact
+   test_display_checking_produce_output_line_count
+   test_exact_count_check_valid[chosen_arguments1]
+   test_add_single_result_to_report_check_text_output_diagnostic
+   test_file_exists_in_directory_check_words
+   test_comment_counts_check_single_java_exact
+   test_command_executes_checks_does_not_execute_correctly
+   test_comment_counts_check_single_java
+   test_comment_counts_check_single_python
+   test_file_exists_in_directory_check_fragments_exact
+   test_content_string_check_fragments_with_threshold
+
+
+Thank you for using Function-Fiasco

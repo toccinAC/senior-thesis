@@ -1,0 +1,22 @@
+\begin{abstract}
+Large-scale systems are very complex and because of that, it is
+very difficult to test them adequately. The current metric to determine if a system
+has been thoroughly tested is called coverage. Test coverage as a metric can be a misleading
+number that can cause test suites to be ineffective without the creator knowing.
+Coverage is used to explain how much of a program is tested, but this does not
+reveal whether or not the tests are adequate. This is an industry-wide issue as
+many companies will not allow pull requests if the test coverage is any lower
+than 100\%\cite{prause2017100}. This limitation can potentially lead to
+something called a pseudo-tested method. A pseudo-tested method is a method that
+is tested, but which passes regardless of the output of a function. So if a test passes without ensuring that the
+output was as intended by the developer, that is a pseudo-tested method because it is believed that
+the test is effective. A tool has been created, aptly named Function-Fiasco, that
+helps determine how much of the code is adequately tested and provides a
+metric that is more representative of the actual conditions of the system. The
+tool is based on the idea of fault injection. Software fault injection denotes the artificial insertion, or injection, of faults and error states into a running software system~\cite{feinbube2018software}. The tool allows a function to run, but collects the output, and then
+randomizes the output. It then runs the tests associated to the function using randomized output and if the test still passes, it is
+a pseudo-tested method. It then produces a metric that is
+representative of the behavior of the system. This study also has a completed analysis of this
+information to determine if the system was accurate in detecting pseuodo-tested
+methods.
+\end{abstract}

@@ -1,0 +1,5 @@
+function vs methods
+
+number of statements
+
+numbers
